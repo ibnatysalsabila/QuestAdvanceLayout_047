@@ -90,3 +90,5 @@ fun ActivitasPertama(modifier: Modifier){
             modifier = Modifier
                 .fillMaxSize()
         ){
+            Text(
+                text = stringResource(id = R.string.copy),
