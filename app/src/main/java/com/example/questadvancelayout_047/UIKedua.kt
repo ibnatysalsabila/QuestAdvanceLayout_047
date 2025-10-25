@@ -73,3 +73,16 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                     contentScale = ContentScale.Crop
                 )
             }
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                modifier = Modifier.padding(vertical = 8.dp)
+            ) {
+
+                SocialMediaIcon(icon = Icons.Default.Share, color = Color(0xFF6366F1))
+                SocialMediaIcon(icon = Icons.Default.Star, color = Color(0xFF8B5CF6))
+                SocialMediaIcon(icon = Icons.Default.Face, color = Color(0xFFEC4899))
+                SocialMediaIcon(icon = Icons.Default.Email, color = Color(0xFF3B82F6))
+            }
+
