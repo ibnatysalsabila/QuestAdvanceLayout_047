@@ -237,3 +237,12 @@ fun MenuItemCard(
                     modifier = Modifier.size(22.dp)
                 )
             }
+            Spacer(modifier = Modifier.width(16.dp))
+            Text(
+                text = title,
+                color = Color.White,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Medium,
+                modifier = Modifier.weight(1f)
+            )
+
