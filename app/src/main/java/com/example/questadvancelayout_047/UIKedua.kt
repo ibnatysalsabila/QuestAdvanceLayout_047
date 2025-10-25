@@ -109,3 +109,23 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 color = Color.White.copy(alpha = 0.7f)
             )
 
+            Spacer(modifier = Modifier.height(32.dp))
+
+            com.example.questadvancelayout_047.MenuItemCard(
+                icon = Icons.Default.Lock,
+                title = "Privacy",
+                iconColor = Color(0xFF10B981)
+            )
+            Spacer(modifier = Modifier.height(12.dp))
+            com.example.questadvancelayout_047.MenuItemCard(
+                icon = Icons.Default.AccountCircle,
+                title = "Riwayat Transaksi",
+                iconColor = Color(0xFF8B5CF6)
+            )
+            Spacer(modifier = Modifier.height(12.dp))
+            com.example.questadvancelayout_047.MenuItemCard(
+                icon = Icons.Default.Settings,
+                title = "Pengaturan",
+                iconColor = Color(0xFFEC4899)
+            )
+
