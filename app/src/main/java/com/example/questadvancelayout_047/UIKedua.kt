@@ -86,3 +86,26 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 SocialMediaIcon(icon = Icons.Default.Email, color = Color(0xFF3B82F6))
             }
 
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Text(
+                text = "Ibnaty Salsabila",
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+            Text(
+                text = "@ibntyslsa._",
+                fontSize = 15.sp,
+                color = Color(0xFFA78BFA),
+                fontWeight = FontWeight.Medium
+            )
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "QA Manager",
+                fontSize = 14.sp,
+                color = Color.White.copy(alpha = 0.7f)
+            )
+
