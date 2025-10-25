@@ -65,3 +65,11 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                     .background(Color.Gray),
                 contentAlignment = Alignment.Center
             ) {
+                Image(
+                    painter = painterResource(id = R.drawable.sy),
+                    contentDescription = "Profile Picture",
+                    modifier = Modifier
+                        .fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
+            }
