@@ -160,3 +160,23 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                     )
                 }
             }
+
+            Spacer(modifier = Modifier.weight(1f))
+
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+            ){
+                Text(
+                    text = "© 2025 Ibnaty Salsabila",
+                    color = Color.White.copy(alpha = 0.4f),
+                    fontSize = 11.sp,
+                    fontWeight = FontWeight.Light,
+                    modifier = Modifier
+                        .align(Alignment.Center)
+                        .padding(bottom = 16.dp)
+                )
+            }
+        }
+    }
+}
