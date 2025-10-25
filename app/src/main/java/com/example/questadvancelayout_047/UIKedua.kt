@@ -129,3 +129,34 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 iconColor = Color(0xFFEC4899)
             )
 
+            Spacer(modifier = Modifier.height(32.dp))
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(50.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color.Red
+                ),
+                shape = RoundedCornerShape(25.dp)
+            ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Person,
+                        contentDescription = "Logout",
+                        tint = Color.White
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(
+                        text = "Logout",
+                        color = Color.White,
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+            }
