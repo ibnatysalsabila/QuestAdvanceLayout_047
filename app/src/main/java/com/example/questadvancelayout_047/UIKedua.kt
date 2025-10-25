@@ -246,3 +246,12 @@ fun MenuItemCard(
                 modifier = Modifier.weight(1f)
             )
 
+            Icon(
+                imageVector = Icons.Default.ArrowForward,
+                contentDescription = "Arrow",
+                tint = Color.White.copy(alpha = 0.5f),
+                modifier = Modifier.size(20.dp)
+            )
+        }
+    }
+}
