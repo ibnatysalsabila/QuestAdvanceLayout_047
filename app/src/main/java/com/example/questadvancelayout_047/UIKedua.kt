@@ -201,3 +201,19 @@ fun SocialMediaIcon(
         )
     }
 }
+
+@Composable
+fun MenuItemCard(
+    icon: ImageVector,
+    title: String,
+    iconColor: Color
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(64.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = Color(0xFF2d2444).copy(alpha = 0.6f)
+        ),
+        shape = RoundedCornerShape(16.dp)
+    ) {
